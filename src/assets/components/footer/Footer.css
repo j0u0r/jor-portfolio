@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    background-color: #222831;
+    padding: 2em;
+}
+
+.ending{
+    margin: auto;
+}

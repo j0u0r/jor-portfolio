@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+header{
+    display: flex;
+    background-color: #222831;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:80%;
+}
+
+h1{
+    font-size: 2em;
+}
