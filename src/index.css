@@ -1,3 +1,19 @@
-*{
-    color: #ededed;
+@import "tailwindcss";
+@theme {
+  --color-darkgrey: #222831;
+  --color-grey: #31363f;
+  --color-mattegreen: #76abae;
 }
+
+* {
+  color: #ededed;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+

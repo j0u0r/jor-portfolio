@@ -1,9 +1,43 @@
-import "./Body.css"
+import "./Body.css";
+import { Typewriter } from "react-simple-typewriter";
 
-function Body(){
-    return(
-            <div className="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque magni, minima veniam expedita amet culpa, quasi, quis dolorem eaque aut libero fugit ad blanditiis maxime. Et, distinctio. Quia, saepe ipsam.</div>
-    );
+
+function Body() {
+
+  return (
+    <>
+      <div className="bg-grey">
+        <div className="page flex items-center justify-center">
+          <span style={{fontWeight: 'bold', fontSize: "48px" }}>
+          <Typewriter
+            words={['Eat', 'Sleep', 'Code', 'Repeat!']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </span>
+        </div>
+        <div className="page">
+          <h1>About me2</h1>
+        </div>
+        <div className="page">
+          <h1>About me3</h1>
+        </div>
+        <div className="page">
+          <h1>About me4</h1>
+        </div>
+        <div className="page">
+          <h1>About me5</h1>
+        </div>
+        <div className="page">
+          <h1>About me6</h1>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Body 
+export default Body;
