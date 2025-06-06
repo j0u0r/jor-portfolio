@@ -17,3 +17,36 @@
   display: none;
 }
 
+html{
+    scroll-padding: 4em;
+    background: #31363f;
+}
+
+.page{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:80%;
+}
+
+#aboutmepic img{
+  height: 95vh;
+  mask-image: linear-gradient(to right, black 70%, transparent 100%);
+}
+footer{
+    display: flex;
+    padding: 2em;
+}
+
+.ending{
+    margin: auto;
+}
